@@ -26,13 +26,13 @@ def get_models():
 
 class FaceSwapScript(scripts.Script):
     def title(self):
-        return f"roop"
+        return f"JHroop"
 
     def show(self, is_img2img):
         return scripts.AlwaysVisible
 
     def ui(self, is_img2img):
-        with gr.Accordion(f"roop {version_flag}", open=False):
+        with gr.Accordion(f"JHroop {version_flag}", open=False):
             with gr.Column():
                 img = gr.inputs.Image(type="pil")
                 enable = gr.Checkbox(False, placeholder="enable", label="Enable")
