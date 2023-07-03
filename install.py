@@ -24,7 +24,7 @@ if not os.path.exists(models_dir):
 if not os.path.exists(model_path):
     download(model_url, model_path)
 
-print("Checking roop requirements")
+print("Checking roop-jh requirements")
 with open(req_file) as file:
     for package in file:
         try:
